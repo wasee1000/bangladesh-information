@@ -1,7 +1,7 @@
 import React from 'react';
 import { useParams, Link } from 'react-router-dom';
 import { MapPin, Users, Building, ArrowLeft, ChevronRight } from 'lucide-react';
-import { divisions, districts, sampleDistricts } from '../data/bangladesh-data';
+import { divisions, districts, sampleDistricts } from '../data/bangladesh-data.js';
 
 const DivisionPage = () => {
   const { divisionId } = useParams();
